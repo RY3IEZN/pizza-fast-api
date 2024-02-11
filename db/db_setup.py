@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 
-SQLALCHEMY_DATABASE_URL = "postgresql://uneku:pgadmin@18.171.190.230:5432/pizzadb"
+SQLALCHEMY_DATABASE_URL = ""
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL, echo=True, connect_args={}, future=True)
 
